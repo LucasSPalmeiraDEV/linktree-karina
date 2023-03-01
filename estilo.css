@@ -1,0 +1,79 @@
+body{
+    background-color:black;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.container{
+    position:absolute;
+    top:8px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+.logo-image img {
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius:50%;
+    box-shadow: 0px 0px 15px 5px #e03ea1;
+
+
+}
+.logo-image{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.buttons-container{
+    margin-bottom:30px;
+    margin-top:10px;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    gap:18px;
+    width:100%;
+    
+
+}
+.buttons-container img{
+    width:24px;
+    height:24px;
+    object-fit: cover;
+   
+
+}
+.buttons-container a{
+    text-decoration:none;
+    color:#fff;
+
+}
+.social-container img{
+    width:24px;
+    height:24px;
+    object-fit: cover;
+    align-items: center;
+  
+}
+.social-container{
+    display:inline;
+    justify-content:center;
+    flex-direction: column;
+    text-align:center;
+    margin-top: 10px;
+}
+.whatsApp-btn,.instagran-btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e03ea1;
+    box-shadow:0px 0px 18px 1px #e03ea1 ;
+    width:432px;
+    border-radius:25px;
+    gap:10px;
+    padding-inline:20px;
+}
